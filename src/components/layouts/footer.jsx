@@ -68,23 +68,23 @@ const Footer = () => {
           <div className="flex items-center space-x-2">
             <span className="text-[12px]">@companyName</span>
             <img
-              src="src/assets/Instagram_x2.svg" 
+              src="/Instagram_x2.svg" 
               alt="Company Logo"
               className="w-[30px] h-[30px]"
             />
           </div>
           <div className="flex items-center space-x-2">
             <span className="text-[12px]">Company@facebook.com</span>
-            <img
-              src="src/assets/Facebook1_x2.svg" 
+            {/* <img
+              src="=/Facebook1_x2.svg" 
               alt="Company Logo"
               className="w-[30px] h-[30px]"
-            />
+            /> */}
           </div>
           <div className="flex items-center space-x-2">
             <span className="text-[12px]">@companyName</span>
             <img
-              src="src/assets/X1_x2.svg" 
+              src="/X1_x2.svg" 
               alt="Company Logo"
               className="w-[30px] h-[30px]"
             />

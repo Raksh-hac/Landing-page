@@ -45,7 +45,7 @@ function ToggleSwitch() {
               animate={{ rotate: isClicked ? 90 : 0 }}
               transition={{ type: "spring", stiffness: 400, damping: 20 }}
             >
-              <img src="src/assets/Images/login.svg" alt="arrow" />
+              <img src="/login.svg" alt="arrow" />
             </motion.div>
           </motion.div>
           {!isClicked && (

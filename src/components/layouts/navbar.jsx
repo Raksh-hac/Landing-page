@@ -126,7 +126,7 @@ function Navbar() {
       <div className="flex justify-between items-center mx-auto max-w-6xl px-8 sm:px-6 lg:px-8">
         <div className="flex items-center">
           <a href="#" className="flex items-center">
-            <img src="src/assets/react.svg" alt="Logo" className="h-8 w-8" />
+            <img src="/react.svg" alt="Logo" className="h-8 w-8" />
             <span className="ml-2 font-bold text-white text-[30px]">LOGO</span>
           </a>
         </div>

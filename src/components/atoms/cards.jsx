@@ -4,21 +4,21 @@ import { motion } from 'framer-motion';
 const Cards = () => {
   const [cardData, setCardData] = useState([
     {
-      image: 'src/assets/Images/game-controller@2x.png',
+      image: '/game-controller@2x.png',
       heading: 'Game Development',
       paragraph: 'We create immersive games that captivate players. Our talented team excels in various genres and platforms, turning concepts into reality. Collaborate with us to launch your next game.',
       hasExtraContent: false,
       borderColor: '#832232',
     },
     {
-      image: 'src/assets/Images/browser-settings@2x.png',
+      image: '/browser-settings@2x.png',
       heading: 'Web Development',
       paragraph: 'We turn your digital vision into reality with custom web development. Our team uses cutting-edge technology and creative design to build responsive, user-friendly websites tailored to your business.',
       hasExtraContent: false,
       borderColor: '#B497D6',
     },
     {
-      image: 'src/assets/Images/new-store@2x.png',
+      image: '/new-store@2x.png',
       heading: 'Asset Store',
       paragraph: 'Discover our collection of high-quality assets for game and web development.',
       hasExtraContent: true,
@@ -131,7 +131,7 @@ const Cards = () => {
               >
                 <div className="flex flex-col items-center">
                   <img
-                    src="src/assets/Images/playstation-buttons@2x.png"
+                    src="/playstation-buttons@2x.png"
                     alt="Asset 1"
                     className="w-8 h-8"
                   />
@@ -139,7 +139,7 @@ const Cards = () => {
                 </div>
                 <div className="flex flex-col items-center">
                   <img
-                    src="src/assets/Images/source-code@2x.png"
+                    src="/source-code@2x.png"
                     alt="Asset 2"
                     className="w-8 h-8"
                   />

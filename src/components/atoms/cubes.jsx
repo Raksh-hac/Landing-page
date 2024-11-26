@@ -4,18 +4,18 @@ import "/src/App.css"; // Import your custom CSS
 
 const Cube = () => {
   const initialImages = [
-    "src/assets/Images/image1.png",
-    "src/assets/Images/image2.png",
-    "src/assets/Images/image3.png",
-    "src/assets/Images/image4.png",
-    "src/assets/Images/image5.png",
-    "src/assets/Images/image6.png",
-    "src/assets/Images/image7.png",
-    "src/assets/Images/image8.png",
-    "src/assets/Images/image9.png",
-    "src/assets/Images/image10.png",
-    "src/assets/Images/image11.png",
-    "src/assets/Images/image12.png",
+    "/image1.png",
+    "/image2.png",
+    "/image3.png",
+    "/image4.png",
+    "/image5.png",
+    "/image6.png",
+    "/image7.png",
+    "/image8.png",
+    "/image9.png",
+    "/image10.png",
+    "/image11.png",
+    "/image12.png",
   ];
 
   const [images, setImages] = useState(initialImages);
